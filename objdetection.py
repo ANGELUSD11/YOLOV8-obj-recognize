@@ -22,6 +22,7 @@ if not cap.isOpened():
 cv2.namedWindow("YOLOv8 Detección en Tiempo Real", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("YOLOv8 Detección en Tiempo Real", width, height)
 
+#se recomienda usar el método .isOpened() de OpenCV ya que otorga mayor control y estabilidad, en vez de usar un simple While
 while cap.isOpened():
     ret, frame = cap.read()
     if not ret:
