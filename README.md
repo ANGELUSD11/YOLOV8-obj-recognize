@@ -1,2 +1,2 @@
 ### **YOLO MODEL Object detection**
-![Preview](media/2yolov1.png)
+![Preview](media/yolov1.png)
